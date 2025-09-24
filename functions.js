@@ -1,3 +1,4 @@
+// Task 1
 function findEvenOdd(...nums) {
   let evens = [];
   let odds = [];
@@ -13,7 +14,7 @@ function findEvenOdd(...nums) {
 console.log(findEvenOdd(14, 20, 35, 40, 57, 60, 100));
 console.log("");
 
-
+// Task 2
 function sumDivisible(arr) {
   let sum = 0;
   for (let n of arr) {
@@ -23,3 +24,15 @@ function sumDivisible(arr) {
 }
 
 console.log(sumDivisible([14, 20, 35, 40, 57, 60, 100]));
+console.log("");
+
+// Task 3
+function countChar(str, ch) {
+  let count = 0;
+  for (let s of str) {
+    if (s === ch) count++;
+  }
+  return count;
+}
+
+console.log(countChar("Salam necesən yaxşısan", "a"));
