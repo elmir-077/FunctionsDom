@@ -11,3 +11,15 @@ function findEvenOdd(...nums) {
 }
 
 console.log(findEvenOdd(14, 20, 35, 40, 57, 60, 100));
+console.log("");
+
+
+function sumDivisible(arr) {
+  let sum = 0;
+  for (let n of arr) {
+    if (n % 20 === 0) sum += n;
+  }
+  return sum;
+}
+
+console.log(sumDivisible([14, 20, 35, 40, 57, 60, 100]));
